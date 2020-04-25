@@ -3,4 +3,4 @@ import ReactDOM from 'react-dom';
 import Student from './components/Student';
 import App from './App';
 import el from './App';
-ReactDOM.render(el,document.getElementById("root"));
+ReactDOM.render(<Student name="Zewaa" rollno="21"/>,document.getElementById("root"));
